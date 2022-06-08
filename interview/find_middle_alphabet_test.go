@@ -21,10 +21,10 @@ func TestFindMiddleAlphabet(t *testing.T) {
 	// The middle between T and Z is W
 	// The middle between Q and Z is UV
 
-	assert.Equal(t, middleAlphabet("Q", "U"), "S", "The middle between Q and U is wrong")
-	assert.Equal(t, middleAlphabet("R", "U"), "ST", "The middle between R and U is wrong")
-	assert.Equal(t, middleAlphabet("T", "Z"), "W", "The middle between T and Z is wrong")
-	assert.Equal(t, middleAlphabet("Q", "Z"), "UV", "The middle between Q and Z is wrong")
+	assert.Equal(t, middleAlphabet("Q", "U"), "S", "Middle alphabet Q and U should be S")
+	assert.Equal(t, middleAlphabet("R", "U"), "ST", "Middle alphabet R and U should be ST")
+	assert.Equal(t, middleAlphabet("T", "Z"), "W", "Middle alphabet T and Z should be W")
+	assert.Equal(t, middleAlphabet("Q", "Z"), "UV", "Middle alphabet Q and Z should be UV")
 }
 
 const alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

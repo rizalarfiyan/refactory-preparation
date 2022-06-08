@@ -18,7 +18,7 @@ func TestReverseWord(t *testing.T) {
 
 	// note: observe the Capital word behavior. Capital only when in the first letter
 
-	assert.Equal(t, reverseWord("I am A Great human"), "I ma A Taerg namuh", `The word "I am A Great human" is not pass`)
+	assert.Equal(t, reverseWord("I am A Great human"), "I ma A Taerg namuh", `Reverse Word "I am A Great human" should be "I ma A Taerg namuh"`)
 }
 
 func reverseWord(str string) string {
